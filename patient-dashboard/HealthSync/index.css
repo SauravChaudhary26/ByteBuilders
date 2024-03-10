@@ -1,0 +1,7 @@
+html,
+body {
+   height: 100%;
+   margin: 0;
+   background-image: url(./src/assets/types-of-doctors-1600114658.jpg);
+   background-size: cover;
+}
