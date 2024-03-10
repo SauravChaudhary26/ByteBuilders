@@ -1,7 +1,14 @@
-import styles from "./All-CSSs/Taskbar.module.css";
+import styles from "./All-CSSs/TaskButtons.module.css";
 
 const Payments = () => {
-   return <span className={styles.payments}>Payments</span>;
+   return (
+      <button
+         className={`${styles.button89} ${styles.posPayments}`}
+         role='button'
+      >
+         Payments
+      </button>
+   );
 };
 
 export default Payments;

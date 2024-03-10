@@ -10,7 +10,7 @@
    font-size: 2em;
    color: white;
    letter-spacing: 2px;
-   position: relative;
+   position: absolute;
    top: 30px;
    left: 20px;
    font-family: "PT Serif", serif;
@@ -23,16 +23,42 @@
    position: absolute;
    top: 18px;
    left: 94%;
+   background-color: white;
+   border-radius: 50%;
+   padding: 0px;
+   z-index: 2;
 }
 
 .profileText {
    position: relative;
-   left: 94.4%;
-   top: 20px;
+   left: 94.3%;
+   top: 60px;
+   color: white;
 }
 
 .payments {
    color: white;
    position: relative;
-   top: 50px;
 }
+
+.bookAppointment {
+   color: white;
+   position: relative;
+}
+
+.tests {
+   color: white;
+   position: relative;
+}
+
+.pharmacy {
+   color: white;
+   position: relative;
+}
+
+/* Hover effects */
+.profileIcon:hover {
+   filter: drop-shadow(2px 2px 8px #fff);
+   font-size: 52px;
+}
+/* Hover effects */

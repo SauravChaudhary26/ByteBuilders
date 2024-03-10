@@ -2,6 +2,8 @@ html,
 body {
    height: 100%;
    margin: 0;
-   background-image: url(./src/assets/types-of-doctors-1600114658.jpg);
+   background-color: black;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+      url(./src/assets/img.png);
    background-size: cover;
 }

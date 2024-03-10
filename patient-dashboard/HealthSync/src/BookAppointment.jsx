@@ -1,5 +1,11 @@
+import styles from "./All-CSSs/TaskButtons.module.css";
+
 const BookAppointment = () => {
-   return <div>Book an Appointment</div>;
+   return (
+      <button className={`${styles.button89} ${styles.posBA}`} role='button'>
+         Book an Appointment
+      </button>
+   );
 };
 
 export default BookAppointment;

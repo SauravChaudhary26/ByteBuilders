@@ -1,16 +1,16 @@
-import styles from "./All-CSSs/Taskbar.module.css";
+import { IoPersonCircle } from "react-icons/io5";
 import Logo from "./Logo";
-import { CgProfile } from "react-icons/cg";
 import ProfileText from "./ProfileText";
-import Payments from "./Payments";
+import Tabs from "./Tabs";
+import styles from "./All-CSSs/Taskbar.module.css";
 
 const TaskBar = () => {
    return (
       <div className={styles.bar}>
          <Logo></Logo>
-         <CgProfile className={styles.profileIcon} />
+         <IoPersonCircle className={styles.profileIcon} />
          <ProfileText></ProfileText>
-         <Payments></Payments>
+         <Tabs></Tabs>
       </div>
    );
 };
