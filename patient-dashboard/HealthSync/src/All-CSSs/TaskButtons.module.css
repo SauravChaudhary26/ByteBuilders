@@ -1,27 +1,3 @@
-.posBA {
-   position: relative;
-   top: -23px;
-   left: 418px;
-}
-
-.posPharmacy {
-   position: relative;
-   top: -23px;
-   left: 500px;
-}
-
-.posTests {
-   position: relative;
-   top: -23px;
-   left: 458px;
-}
-
-.posPayments {
-   position: relative;
-   top: -23px;
-   left: 542px;
-}
-
 .button89 {
    --b: 3px; /* border thickness */
    --s: 0.45em; /* size of the corner */
@@ -58,5 +34,5 @@
 
 .button89:active {
    background: var(--color);
-   color: #fff;
+   color: #000;
 }

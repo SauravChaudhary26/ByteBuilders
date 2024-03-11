@@ -6,7 +6,7 @@ import styles from "./All-CSSs/Taskbar.module.css";
 
 const Tabs = () => {
    return (
-      <div>
+      <div className={styles.tabs}>
          <BookAppointment></BookAppointment>
          <Tests></Tests>
          <Pharmacy></Pharmacy>

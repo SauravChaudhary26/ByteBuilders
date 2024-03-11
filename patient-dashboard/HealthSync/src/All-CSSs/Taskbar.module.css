@@ -16,6 +16,7 @@
    font-family: "PT Serif", serif;
    font-weight: 700;
    font-style: normal;
+   cursor: pointer;
 }
 
 .profileIcon {
@@ -54,6 +55,15 @@
 .pharmacy {
    color: white;
    position: relative;
+}
+
+.tabs {
+   display: flex;
+   position: relative;
+   top: 25px;
+   left: 25%;
+   justify-content: space-around;
+   width: 800px;
 }
 
 /* Hover effects */
