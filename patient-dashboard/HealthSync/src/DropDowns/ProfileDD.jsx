@@ -1,6 +1,5 @@
 import ProfileDDLI from "./ProfileDDLI";
 import styles from "../All-CSSs/ProfileDD.module.css";
-import { IoSettings } from "react-icons/io5";
 
 const ProfileDD = ({ cond }) => {
    return (
