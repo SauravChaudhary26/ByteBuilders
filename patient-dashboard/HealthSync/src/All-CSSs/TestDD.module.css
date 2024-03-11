@@ -1,38 +1,38 @@
-.profileDD {
-   transition: 1s;
-   width: 171px;
+.testdd {
+   padding: 0;
+   width: 280px;
    position: absolute;
-   top: 83px;
-   right: 2.5%;
-   /* background: rgba(f, f, f, 0.8);
-   backdrop-filter: saturate(180%) blur(10px); */
+   top: 87px;
+   left: 45%;
    display: flex;
    flex-direction: column;
-   padding: 24px;
-   padding-left: 1px;
-   border-radius: 7%;
    list-style: none;
-   padding-bottom: 0;
    margin: 10px auto;
-   background-color: rgba(255, 255, 255, 0.56);
-   box-shadow: 0 0 15px 0;
-   /* background: inherit; */
+   background-color: rgba(255, 255, 255, 0.5);
    backdrop-filter: blur(30px);
+   box-shadow: -1px -1px 20px 2px;
+   padding-top: 15px;
+   border-radius: 7px;
 }
 
-.profileDDLI {
+.testddli {
+   position: relative;
    transition: 1s;
-   height: 47px;
    padding: 0;
    padding-left: 10px;
    font-size: 1.3em;
+   padding-bottom: 20px;
+   border-bottom-color: black;
+   border-bottom-width: 2px;
+   border-bottom-style: double;
+   padding-top: 10px;
 }
 
 .active {
    opacity: 1;
    visibility: visible;
    /* transition: opacity 0.3s ease; */
-   transform: translateY(0);
+   transform: translateY(0px);
    transition: 500ms ease;
 }
 
@@ -44,23 +44,18 @@
    transition: 500ms ease;
 }
 
-.image {
-   height: 30px;
-   width: 30px;
-}
-
 .links {
    position: relative;
    top: -4px;
    margin-left: 10px;
 }
 
-.profileDDLI:hover .links {
+.testddli:hover .links {
    transition: 0.2s;
    color: white;
 }
 
-.profileDDLI:hover svg {
+.testddli:hover svg {
    transition: 0.25s;
    fill: white;
 }
