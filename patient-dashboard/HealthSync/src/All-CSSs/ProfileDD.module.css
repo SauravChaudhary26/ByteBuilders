@@ -52,5 +52,11 @@
 }
 
 .profileDDLI:hover .links {
+   transition: 0.2s;
    color: white;
+}
+
+.profileDDLI:hover svg {
+   transition: 0.25s;
+   fill: white;
 }

@@ -9,12 +9,12 @@ const ProfileDD = ({ cond }) => {
             cond ? styles.active : styles.inactive
          }`}
       >
-         <ProfileDDLI text='View Profile'></ProfileDDLI>
-         <ProfileDDLI text='Edit Profile'></ProfileDDLI>
-         <ProfileDDLI text='Inbox'></ProfileDDLI>
-         <ProfileDDLI text='Settings'></ProfileDDLI>
-         <ProfileDDLI text='Help'></ProfileDDLI>
-         <ProfileDDLI text='Logout'></ProfileDDLI>
+         <ProfileDDLI text='View Profile' imgsrc='View'></ProfileDDLI>
+         <ProfileDDLI text='Edit Profile' imgsrc='Edit'></ProfileDDLI>
+         <ProfileDDLI text='Inbox' imgsrc='Inbox'></ProfileDDLI>
+         <ProfileDDLI text='Settings' imgsrc='Settings'></ProfileDDLI>
+         <ProfileDDLI text='Help' imgsrc='Help'></ProfileDDLI>
+         <ProfileDDLI text='Logout' imgsrc='Logout'></ProfileDDLI>
       </ul>
    );
 };
