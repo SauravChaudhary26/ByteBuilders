@@ -1,6 +1,33 @@
 .profileDD {
-   width: 300px;
+   transition: 1s;
+   width: 197px;
    position: absolute;
-   right: 10%;
+   top: 64px;
+   right: 2.5%;
    background-color: white;
+   display: flex;
+   flex-direction: column;
+   padding: 15px;
+   border-radius: 7%;
+   list-style: none;
+}
+
+.profileDDLI {
+   transition: 1s;
+   height: 47px;
+   padding-left: 10px;
+   padding-top: 10px;
+   font-size: 1.3em;
+}
+
+.active {
+   opacity: 1;
+   visibility: visible;
+   transition: opacity 0.3s ease;
+}
+
+.inactive {
+   opacity: 0;
+   visibility: hidden;
+   transition: opacity 0.3s ease, visibility 0s linear 0.3s;
 }

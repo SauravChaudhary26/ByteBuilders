@@ -16,11 +16,11 @@ const TaskBar = () => {
 
    return (
       <div className={styles.bar}>
-         <Logo whenClicked={whenClicked}></Logo>
+         <Logo></Logo>
          <IoPersonCircle className={styles.profileIcon} onClick={whenClicked} />
          {/* <ProfileText></ProfileText> */}
          <Tabs></Tabs>
-         {open && <ProfileDD></ProfileDD>}
+         <ProfileDD cond={open}></ProfileDD>
       </div>
    );
 };

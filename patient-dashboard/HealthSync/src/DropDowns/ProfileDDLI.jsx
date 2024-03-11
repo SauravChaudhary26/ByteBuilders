@@ -1,9 +1,11 @@
+import styles from "../All-CSSs/ProfileDD.module.css";
+
 const ProfileDDLI = ({ text, imgsrc }) => {
    return (
-      <>
-         <img src={imgsrc} alt='' />
+      <li className={styles.profileDDLI}>
+         <img src={imgsrc} alt='not found' />
          <a>{text}</a>
-      </>
+      </li>
    );
 };
 

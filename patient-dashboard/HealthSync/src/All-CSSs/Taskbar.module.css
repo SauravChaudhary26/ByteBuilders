@@ -28,6 +28,7 @@
    border-radius: 50%;
    padding: 0px;
    z-index: 2;
+   /* transition: 1s; */
 }
 
 .profileText {
@@ -70,5 +71,18 @@
 .profileIcon:hover {
    filter: drop-shadow(2px 2px 8px #fff);
    font-size: 52px;
+   transition: 0.21s;
 }
 /* Hover effects */
+
+/* .profileDropdownOpen {
+   max-height: 300px;  Adjust height according to your dropdown content 
+   overflow: hidden;
+   transition: max-height 0.5s ease;  Smooth transition for height change 
+}
+
+.profileDropdownClosed {
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.5s ease;  Smooth transition for height change 
+} */
