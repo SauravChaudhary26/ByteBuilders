@@ -3,7 +3,6 @@
    width: 100%;
    height: 100px;
    position: fixed;
-   backdrop-filter: blur(10px);
 }
 
 .logo {
