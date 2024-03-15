@@ -81,6 +81,35 @@ const Navbar = () => {
             >
               Blog
             </Link>
+
+          {/* Appointments Dropdown */}
+<div className="relative">
+  <button className="hover:text-hoverColor transition-all cursor-pointer">
+    Appointments
+  </button>
+  <div className="absolute top-full left-0 bg-backgroundColor text-white p-2 w-40 hidden">
+    <Link to="pending-appointments" spy={true} smooth={true} duration={500} className="block hover:text-hoverColor transition-all cursor-pointer">Pending Appointments</Link>
+    <Link to="ongoing-appointments" spy={true} smooth={true} duration={500} className="block hover:text-hoverColor transition-all cursor-pointer">Ongoing Appointments</Link>
+    <Link to="post-appointments" spy={true} smooth={true} duration={500} className="block hover:text-hoverColor transition-all cursor-pointer">Post Appointments</Link>
+  </div>
+</div>
+
+{/* Tests Dropdown */}
+<div className="relative">
+  <button className="hover:text-hoverColor transition-all cursor-pointer">
+    Tests
+  </button>
+  <div className="absolute top-full left-0 bg-backgroundColor text-white p-2 w-40 hidden">
+    <Link to="view-results" spy={true} smooth={true} duration={500} className="block hover:text-hoverColor transition-all cursor-pointer">View Results</Link>
+    <button className="block hover:text-hoverColor transition-all cursor-pointer">Payment</button>
+    <button className="block hover:text-hoverColor transition-all cursor-pointer">Patient</button>
+  </div>
+</div>
+
+
+
+
+
           </nav>
 
           <div className=" hidden lg:flex">
@@ -117,16 +146,7 @@ const Navbar = () => {
           >
             Home
           </Link>
-          <Link
-            to="about"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className=" hover:text-hoverColor transition-all cursor-pointer"
-            onClick={closeMenu}
-          >
-            About Us
-          </Link>
+         
           <Link
             to="services"
             spy={true}
@@ -137,16 +157,7 @@ const Navbar = () => {
           >
             Services
           </Link>
-          <Link
-            to="doctors"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className=" hover:text-hoverColor transition-all cursor-pointer"
-            onClick={closeMenu}
-          >
-            Doctors
-          </Link>
+          
           <Link
             to="blog"
             spy={true}

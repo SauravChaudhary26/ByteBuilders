@@ -40,3 +40,53 @@
 .read-the-docs {
   color: #888;
 }
+/* Dropdown button style */
+.relative {
+  position: relative;
+}
+
+/* Dropdown menu style */
+.absolute {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  /* Adjust as needed */
+  color: white;
+  /* Adjust text color */
+  padding: 0.5rem;
+  width: auto;
+  /* Adjust width as needed */
+  border-radius: 0.25rem;
+  /* Adjust border radius */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Adjust box shadow */
+  z-index: 10;
+}
+
+/* Show dropdown menu on hover */
+.relative:hover .absolute {
+  display: block;
+}
+
+/* Hide dropdown menu by default */
+.absolute {
+  display: none;
+}
+
+/* Individual dropdown menu item */
+.absolute a,
+.absolute button {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for dropdown menu items */
+.absolute a:hover,
+.absolute button:hover {
+  background-color: #444;
+  /* Adjust hover background color */
+}
