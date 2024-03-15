@@ -4,7 +4,7 @@ import { MdHeight } from "react-icons/md";
 import "./App.css";
 // import Content from "./Content";
 
-function App() {
+function PatientDashboard() {
    return (
       <div className='container'>
          <TaskBar></TaskBar>
@@ -12,5 +12,5 @@ function App() {
    );
 }
 
-export default App;
+export default PatientDashboard;
 
