@@ -6,4 +6,4 @@ Tech Stack used: ReactJs, ExpressJs, MongoDB, NodeJs, Vite, Bootstrap
 Team members:- 1. Saurav Kumar Chaudhary (SauravChaudhary26)\
                2. Priyanshu Yadav (priyanshuyadav1111)\
                3. Suraj Kumar (Suraj9954)\
-               4. Suryansh Singh (Suryansh-web)\
+               4. Suryansh Singh (Suryansh-web)
