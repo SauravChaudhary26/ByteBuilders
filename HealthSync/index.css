@@ -4,7 +4,7 @@ body {
    margin: 0;
    background-color: black;
    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
-      url(./src/assets/img.png);
+      url(./src/patient-dashboard/assets/img.png);
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
