@@ -3,7 +3,7 @@ A healthcare app that allows Patients and Doctors to interact with each other. S
 
 Tech Stack used: ReactJs, ExpressJs, MongoDB, NodeJs, Vite, Bootstrap
 
-Team members:- 1. Saurav Kumar Chaudhary (SauravChaudhary26)
-               2. Priyanshu Yadav (priyanshuyadav1111)
-               3. Suraj Kumar (Suraj9954)
-               4. Suryansh Singh (Suryansh-web)
+Team members:- 1. Saurav Kumar Chaudhary (SauravChaudhary26)\
+               2. Priyanshu Yadav (priyanshuyadav1111)\
+               3. Suraj Kumar (Suraj9954)\
+               4. Suryansh Singh (Suryansh-web)\
