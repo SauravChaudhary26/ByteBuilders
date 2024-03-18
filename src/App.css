@@ -90,3 +90,51 @@
   background-color: #444;
   /* Adjust hover background color */
 }
+
+
+
+/* Existing styles */
+
+/* Hamburger Menu */
+.hamburger-menu {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  /* Ensure it appears above other content */
+}
+
+.menu-toggle {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menu-content {
+  position: absolute;
+  top: 50px;
+  /* Adjust as needed */
+  right: 20px;
+  /* Adjust as needed */
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Doctor Profile */
+.doctor-profile {
+  display: flex;
+  align-items: center;
+}
+
+.doctor-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Remaining styles */

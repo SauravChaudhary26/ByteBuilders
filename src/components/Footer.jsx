@@ -35,15 +35,32 @@ const Footer = () => {
             >
               Editorial Policy
             </Link>
-            <Link
-              to="payment-policy"
+            {/* <Link
+              to="./components/Payment.jsx"
               spy={true}
               smooth={true}
               duration={500}
               className=" hover:text-hoverColor transition-all cursor-pointer"
             >
               Payment Policy
-            </Link>
+            </Link> */}
+
+             {/* <a
+              href="./components/Payment.jsx" // Update the href to the path of your Payment component
+              className=" hover:text-hoverColor transition-all cursor-pointer"
+              target="_blank" // Add this attribute to open in a new tab
+              rel="noopener noreferrer" // Recommended for security and performance
+            >
+              Payment Policy
+            </a> */}
+
+            <a
+              href="/payment"
+              className=" hover:text-hoverColor transition-all cursor-pointer"
+            >
+              Payment Policy
+            </a>
+
           </nav>
         </div>
         <div>
