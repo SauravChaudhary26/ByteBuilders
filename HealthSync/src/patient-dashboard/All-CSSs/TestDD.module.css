@@ -1,0 +1,61 @@
+.testdd {
+   padding: 0;
+   width: 280px;
+   position: absolute;
+   top: 87px;
+   left: 45%;
+   display: flex;
+   flex-direction: column;
+   list-style: none;
+   margin: 10px auto;
+   background-color: rgba(255, 255, 255, 0.5);
+   backdrop-filter: blur(30px);
+   box-shadow: -1px -1px 20px 2px;
+   padding-top: 15px;
+   border-radius: 7px;
+}
+
+.testddli {
+   position: relative;
+   transition: 1s;
+   padding: 0;
+   padding-left: 10px;
+   font-size: 1.3em;
+   padding-bottom: 20px;
+   border-bottom-color: black;
+   border-bottom-width: 2px;
+   border-bottom-style: double;
+   padding-top: 10px;
+}
+
+.active {
+   opacity: 1;
+   visibility: visible;
+   /* transition: opacity 0.3s ease; */
+   transform: translateY(0px);
+   transition: 500ms ease;
+}
+
+.inactive {
+   opacity: 0;
+   visibility: hidden;
+   /* transition: opacity 0.3s ease, visibility 0s linear 0.3s; */
+   transform: translateY(-20px);
+   transition: 500ms ease;
+}
+
+.links {
+   position: relative;
+   top: -4px;
+   margin-left: 10px;
+}
+
+.testddli:hover .links {
+   transition: 0.2s;
+   color: white;
+}
+
+.testddli:hover svg {
+   transition: 0.25s;
+   fill: white;
+}

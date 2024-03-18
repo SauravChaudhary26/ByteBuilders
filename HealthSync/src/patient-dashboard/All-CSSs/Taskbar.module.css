@@ -1,0 +1,92 @@
+.bar {
+   /* background-color: red; */
+   width: 100%;
+   height: 100px;
+   position: fixed;
+}
+
+.logo {
+   font-size: 2em;
+   color: white;
+   letter-spacing: 2px;
+   position: absolute;
+   top: 30px;
+   left: 20px;
+   font-family: "PT Serif", serif;
+   font-weight: 700;
+   font-style: normal;
+   cursor: pointer;
+}
+
+.profileIcon {
+   font-size: 50px;
+   position: absolute;
+   top: 18px;
+   left: 94%;
+   background-color: white;
+   border-radius: 50%;
+   padding: 0px;
+   z-index: 2;
+   /* transition: 1s; */
+}
+
+.profileText {
+   position: relative;
+   left: 94.3%;
+   top: 60px;
+   color: white;
+}
+
+.payments {
+   color: white;
+   position: relative;
+}
+
+.bookAppointment {
+   color: white;
+   position: relative;
+}
+
+.tests {
+   color: white;
+   position: relative;
+}
+
+.pharmacy {
+   color: white;
+   position: relative;
+}
+
+.tabs {
+   display: flex;
+   position: relative;
+   top: 25px;
+   left: 25%;
+   justify-content: space-around;
+   width: 800px;
+}
+
+/* Hover effects */
+.profileIcon:hover {
+   filter: drop-shadow(2px 2px 8px #fff);
+   font-size: 52px;
+   transition: 0.21s;
+}
+
+.sspan {
+   height: 20px;
+   width: 20px;
+}
+/* Hover effects */
+
+/* .profileDropdownOpen {
+   max-height: 300px;  Adjust height according to your dropdown content 
+   overflow: hidden;
+   transition: max-height 0.5s ease;  Smooth transition for height change 
+}
+
+.profileDropdownClosed {
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.5s ease;  Smooth transition for height change 
+} */
